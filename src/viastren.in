@@ -1,0 +1,40 @@
+6
+E1 Mantenimiento
+E2 Glasgow
+E3 Londres
+P1 Manchester
+P2 Stockport
+P3 Oldham
+6
+E1 P1
+P1 E2
+E2 P2
+P2 P3
+P3 E3
+E3 E1
+5
+E1 Mantenimiento
+E2 Birmingham
+E3 Wolverhampton
+P1 Dudley
+P2 Walsall
+6
+E1 P1
+P1 E2
+E2 P2
+P2 E3
+E3 E1
+E1 P2
+6
+E1 Mantenimiento
+E2 Rochdale
+P1 Salford
+P2 Tameside
+P3 Trafford
+P4 Ribble Valley
+4
+E1 P2
+P2 P3
+P3 E1
+P1 E2
+0 
