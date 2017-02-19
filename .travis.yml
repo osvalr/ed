@@ -1,0 +1,17 @@
+language: cpp
+
+addons:
+  apt:
+    packages:
+      - g++
+      - libncurses5-dev
+
+notifications:
+  email:
+    on_success: true
+    on_failure: true
+
+script: 
+ - make bin
+ - g++ src/GAZPROM_INC.c -lcurses -o=bin/exec.bin
+ - [[ -f bin/exec.bin ]] && file bin/exec.bin || echo "No compiled"
